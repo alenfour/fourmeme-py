@@ -1,6 +1,6 @@
 # fourmeme-py
 
-A minimal Python client for the [four.meme](https://four.meme) token launch API on BSC.
+A minimal Python client for the [four.meme](https://four.meme) token launch API on BSC, built for use with four.meme's **Agentic Mode** — where tokens are created and operated autonomously by AI agent wallets.
 
 Covers the full creation flow: wallet auth → image upload → token creation args → on-chain submission via `TokenManager2`.
 
@@ -78,12 +78,13 @@ cp .env.example .env
 
 ## Example Launch
 
-Token deployed via this client:
+Token deployed via four.meme Agentic Mode using this client:
 
 ```
 CA:      0x083ae7a7f0d099811636f9f73d4285e3d3e14444
 Network: BSC Mainnet
-Wallet:  0x4d246f362fd94ba04d2909b7fff3621244d8ab7b
+Mode:    four.meme Agentic Mode
+Wallet:  0x4d246f362fd94ba04d2909b7fff3621244d8ab7b  (ERC-8004 agent wallet)
 ```
 
 Run the example:

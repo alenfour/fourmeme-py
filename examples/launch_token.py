@@ -1,11 +1,12 @@
 """
-Example: launch a token on four.meme using fourmeme-py.
+Example: launch a token on four.meme via Agentic Mode using fourmeme-py.
 
 Successful launch example:
     Token:   (see README for name/symbol)
     CA:      0x083ae7a7f0d099811636f9f73d4285e3d3e14444
     Network: BSC Mainnet
-    Wallet:  0x4d246f362fd94ba04d2909b7fff3621244d8ab7b
+    Mode:    four.meme Agentic Mode
+    Wallet:  0x4d246f362fd94ba04d2909b7fff3621244d8ab7b  (ERC-8004 agent wallet)
 """
 import asyncio
 import os
